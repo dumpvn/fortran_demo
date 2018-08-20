@@ -21,4 +21,14 @@
     ! Body of MainProgram
     print *, 'Hello World'
     
+    
+    call SimpleSubRoutine()
+    
+    
     end program MainProgram
+
+    subroutine SimpleSubRoutine()
+    
+    print *, 'Simple SubRoutine'
+    
+    end subroutine SimpleSubRoutine
